@@ -1,6 +1,6 @@
-### REST-API STANDAARD NEDERLANDSE SPOORWEGEN
+# REST-API STANDAARD NEDERLANDSE SPOORWEGEN
 
-___Deze standaard is per 2020-1-1 in gebruik genomen en wordt onderhouden door cci@ns.nl___ 
+> Deze standaard is per 2020-1-1 in gebruik genomen en wordt onderhouden door cci@ns.nl 
 
 - Gebruik de voertaal en naamgeving van het relevante domeinmodel.
 
