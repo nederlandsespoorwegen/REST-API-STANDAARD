@@ -2,7 +2,7 @@
 
 > Deze standaard is per 2020-1-1 in gebruik genomen en wordt onderhouden door cci@ns.nl 
 
-- Gebruik de voertaal en naamgeving van het relevante domeinmodel.
+- Gebruik de voertaal en naamgeving van het relevante domeinmodel. De standaard voertaal binnen de NS is Nederlands.
 
 - Gebruik exact deze naamgevingsconventie:
   - meervoud voor **resources** (`/orders`, niet `/order`)
