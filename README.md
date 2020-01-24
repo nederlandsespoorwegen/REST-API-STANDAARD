@@ -29,15 +29,13 @@
   - `OPTIONS` – de CORS pre-flight
  
 - Gebruik onderstaande HTTP status codes in exact deze betekenis:
-  - `102 Processing` (gegeven wanneer een asynchrone response nog steeds in behandeling is, hoort bij de `202 Accepted`, zie de NS REST design patterns)
+  - `102 Processing` - gegeven wanneer een asynchrone response nog in behandeling is, hoort bij de `202 Accepted`, dit is een 'tijdelijke respons' voor clients die de resource pollen na een `202 Accepted` (zie de NS REST design patterns)
   
-  - `201 Created` (afgegeven bij de succesvolle creatie van een nieuwe resource, tegelijkertijd is ook een `Location` HTTP-header met de URL van de nieuwe resource aanwezig in de HTTP-response)
+  - `201 Created` - afgegeven bij de succesvolle creatie van een nieuwe resource, tegelijkertijd is ook een `Location` HTTP-header met de URL van de nieuwe resource aanwezig in de HTTP-response
   
-  - `202 Accepted` (gegeven wanneer een asynchrone response nog moet volgen, tegelijkertijd is een ook een `Location` HTTP-header met de URL van de toekomstige resource aanwezig in de HTTP-response. Hoort bij de `102 Processing`, zie de NS REST design patterns)
+  - `202 Accepted` - afgegeven wanneer een asynchrone response nog moet volgen, tegelijkertijd is een ook een `Location` HTTP-header met de URL van de toekomstige resource aanwezig in de HTTP-response. Hoort bij de `102 Processing` (zie de NS REST design patterns)
   
-  - `204 No content` (Bewust lege response opgeleverd)
-  
-  - `409 Conflict` (duplicate data or invalid data state would occur)
+  - `204 No content` - bewust lege response opgeleverd
   
   - zie https://httpstatuses.com/ 
 
