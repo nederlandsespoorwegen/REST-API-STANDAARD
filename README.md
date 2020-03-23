@@ -9,7 +9,7 @@
   
   - lowercase voor de **delen van de URL** (`/lowercase`, niet `/CamelCase` of `/UPPERCASE`.
   
-  - camelCase voor **veldnamen in requests en responses** (`veldNaam`, niet `VeldNaam` of `veld_naam`)
+  - camelCase voor **veldnamen in requests en responses en URL-qeuries** (`veldNaam`, niet `VeldNaam` of `veld_naam`)
   
   - UpperCamelCase (Pascal Case) voor **recordnamen** (`RecordNaam`, niet `recordName` of `record_naam`)
   
