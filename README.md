@@ -101,15 +101,15 @@
         Host: api.example.com
         Accept: application/vnd.example.api+json;version=2
 
-- Responses zijn niet ingepakt in een JSON envelop. 
+- Responses zijn altijd ingepakt in een JSON envelop. 
 
-    Niet zo:
+    Zo:
      
         {
           "title": ""
         }
         
-    maar zo:
+    niet zo:
     
         "title": ""
 
